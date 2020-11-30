@@ -1,0 +1,16 @@
+.places__link {
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: opacity 100ms ease;
+  -o-transition: opacity 100ms ease;
+  transition: opacity 100ms ease;
+}
+
+.places__link:hover {
+  opacity: 0.8;
+}

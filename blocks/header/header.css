@@ -1,0 +1,35 @@
+.header {
+  max-width: 1184px;
+  max-height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 0 auto;
+  padding: 28px 48px 57px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 28px 24px 48px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .header {
+    padding: 16px 16px 48px;
+    max-height: 42px;
+    min-width: 230px;
+  }
+}
