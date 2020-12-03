@@ -1,11 +1,12 @@
 .places__title {
-  max-width: 460px;
+  width: 100%;
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
   margin: 0;
   padding: 0;
   grid-area: title;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
@@ -16,13 +17,14 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 520px) {
   .places__title {
     font-size: 32px;
     line-height: 1.09;
     -ms-flex-item-align: start;
         align-self: flex-start;
-    margin-left: 16px;
+    padding-left: 16px;
+    box-sizing: border-box;
   }
 }
 

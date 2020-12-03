@@ -1,13 +1,6 @@
 .places__paragraphes {
-  max-width: 484px;
+  width: 100%;
   margin: 0;
   padding: 0;
   grid-area: text;
-}
-
-@media screen and (max-width: 320px) {
-  .places__paragraphes {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
 }

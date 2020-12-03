@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешествия по России</title>
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel="stylesheet" href="./pages/inter.css">
 </head>
 
 <body>
@@ -14,8 +13,8 @@
     <header class="header">
       <img class="logo" src="./blocks/logo/header-logo.svg" alt="Логотип">
       <ul class="header__lang-links">
-        <li><a class="header__lang-link header__lang-link_lang_ru" href="#" target="_blank">Ru</a></li>
-        <li><a class="header__lang-link header__lang-link_lang_en" href="#" target="_blank">En</a></li>
+        <li><a class="header__lang-link header__lang-link_active" href="#" target="_blank">Ru</a></li>
+        <li><a class="header__lang-link" href="#" target="_blank">En</a></li>
       </ul>
     </header>
 
@@ -42,11 +41,11 @@
             места, достойные вашего отпуска.
           </p>
           <ul class="intro__list">
-            <li><span class="font-bold">Часовых поясов</span> 11</li>
-            <li><span class="font-bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
-            <li><span class="font-bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-            <li><span class="font-bold">Природных заповедников</span> 105</li>
-            <li><span class="font-bold">Аэропортов</span> 241</li>
+            <li><span class="intro__span-accent">Часовых поясов</span> 11</li>
+            <li><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
+            <li><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+            <li><span class="intro__span-accent">Природных заповедников</span> 105</li>
+            <li><span class="intro__span-accent">Аэропортов</span> 241</li>
           </ul>
         </div>
       </section>
@@ -54,8 +53,7 @@
 
       <section class="photo-grid">
         <img class="photo-grid__item" src="./blocks/photo-grid/__item/photo-grid-1-train.jpg" alt="Поезд">
-        <img class="photo-grid__item" src="./blocks/photo-grid/__item/photo-grid-2-atharva-tulsi.jpg"
-          alt="Атарва-тулси">
+        <img class="photo-grid__item" src="./blocks/photo-grid/__item/photo-grid-2-atharva-tulsi.jpg" alt="Атарва-тулси">
         <img class="photo-grid__item" src="./blocks/photo-grid/__item/photo-grid-3-tuman.jpg" alt="Туман">
         <img class="photo-grid__item" src="./blocks/photo-grid/__item/photo-grid-4-sochi.jpg" alt="Сочи">
         <img class="photo-grid__item" src="./blocks/photo-grid/__item/photo-grid-5-arisa.jpg" alt="Ариса">
@@ -69,8 +67,8 @@
       </section>
 
       <section class="places">
-        <div class="places__item">
-          <h3 class="places__title">Куршская коса</h3>
+        <article class="places__item">
+          <h2 class="places__title">Куршская коса</h2>
           <img class="places__image" src="./blocks/places/__image/place-kosa.jpg" alt="Куршская коса">
           <div class="places__website">
             <h4 class="places__url-heading">URL</h4>
@@ -88,9 +86,9 @@
               запах стального, прохладного моря.
             </p>
           </div>
-        </div>
-        <div class="places__item">
-          <h3 class="places__title">Кольский</h3>
+        </article>
+        <article class="places__item">
+          <h2 class="places__title">Кольский</h2>
           <img class="places__image" src="./blocks/places/__image/place-kolsky.jpg" alt="Кольский">
           <div class="places__website">
             <h4 class="places__url-heading">URL</h4>
@@ -107,9 +105,9 @@
               апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
               в Мурманск.</p>
           </div>
-        </div>
-        <div class="places__item">
-          <h3 class="places__title">Алтай</h3>
+        </article>
+        <article class="places__item">
+          <h2 class="places__title">Алтай</h2>
           <img class="places__image" src="./blocks/places/__image/place-altai.jpg" alt="Алтай">
           <div class="places__website">
             <h4 class="places__url-heading">URL</h4>
@@ -127,9 +125,9 @@
               пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
-        <div class="places__item">
-          <h3 class="places__title">Зимний Байкал</h3>
+        </article>
+        <article class="places__item">
+          <h2 class="places__title">Зимний Байкал</h2>
           <img class="places__image" src="./blocks/places/__image/place-winter-baikal.jpg" alt="Зимний Байкал">
           <div class="places__website">
             <h4 class="places__url-heading">URL</h4>
@@ -147,9 +145,9 @@
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
-        <div class="places__item">
-          <h3 class="places__title">Карелия</h3>
+        </article>
+        <article class="places__item">
+          <h2 class="places__title">Карелия</h2>
           <img class="places__image" src="./blocks/places/__image/place-karelia.jpg" alt="Карелия">
           <div class="places__website">
             <h4 class="places__url-heading">URL</h4>
@@ -165,7 +163,7 @@
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="cover">
@@ -181,16 +179,19 @@
     </main>
 
     <footer class="footer">
-      <ul class="footer__links">
-        <li><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
-        <li><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
-        <li><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
-        <li><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
-        <li><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
-      </ul>
-      <div class="footer__copyright">
+      <nav>
+        <ul class="footer__links">
+          <li><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+          <li><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+        </ul>
+      </nav>
+      <p class="footer__copyright">
         &copy; 2020. Надя Котегова
-      </div>
+      </p>
+      
     </footer>
 
   </div>

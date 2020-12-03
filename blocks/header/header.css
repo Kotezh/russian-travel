@@ -1,6 +1,6 @@
 .header {
   max-width: 1184px;
-  max-height: 52px;
+  min-height: 52px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,7 +29,7 @@
 @media screen and (max-width: 520px) {
   .header {
     padding: 16px 16px 48px;
-    max-height: 42px;
+    min-height: 42px;
     min-width: 230px;
   }
 }

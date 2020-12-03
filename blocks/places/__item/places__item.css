@@ -4,17 +4,17 @@
   max-width: 984px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: auto 48px auto;
-      grid-template-areas: "title website"
-                       "image text";
+      -ms-grid-rows: auto 48px auto;
+          grid-template-areas: "title website"
+                           "image text";
   -webkit-column-gap: 40px;
      -moz-column-gap: 40px;
           column-gap: 40px;
   row-gap: 48px;
-  -ms-grid-columns: minmax(-webkit-min-content, -webkit-max-content) 40px minmax(-webkit-min-content, -webkit-max-content);
-  -ms-grid-columns: minmax(min-content, max-content) 40px minmax(min-content, max-content);
-  grid-template-columns: repeat(2, minmax(-webkit-min-content, -webkit-max-content));
-  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  -ms-grid-columns: minmax(-webkit-min-content, 460px) 40px minmax(-webkit-min-content, 484px);
+  -ms-grid-columns: minmax(min-content, 460px) 40px minmax(min-content, 484px);
+  grid-template-columns: minmax(-webkit-min-content, 460px) minmax(-webkit-min-content, 484px);
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
 }
 
 .places__item:last-of-type {
@@ -28,10 +28,10 @@
     -webkit-column-gap: 32px;
        -moz-column-gap: 32px;
             column-gap: 32px;
-    -ms-grid-columns: minmax(-webkit-min-content, 440px) 32px minmax(-webkit-min-content, 440px);
-    -ms-grid-columns: minmax(min-content, 440px) 32px minmax(min-content, 440px);
-    grid-template-columns: repeat(2, minmax(-webkit-min-content, 440px));
-    grid-template-columns: repeat(2, minmax(min-content, 440px));
+    -ms-grid-columns: minmax(-webkit-min-content, 440px) 32px minmax(-webkit-min-content, 456px);
+    -ms-grid-columns: minmax(min-content, 440px) 32px minmax(min-content, 456px);
+    grid-template-columns: minmax(-webkit-min-content, 440px) minmax(-webkit-min-content, 456px);
+    grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
   }
 }
 
@@ -50,11 +50,11 @@
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 700px) {
   .places__item {
     margin: 0 auto 53px;
-    -ms-grid-rows: auto 32px auto 32px auto;
-        grid-template-areas: "title"
+        -ms-grid-rows: auto 32px auto 32px auto;
+            grid-template-areas: "title"
                          "image"
                          "text";
     -ms-grid-columns: 1fr;

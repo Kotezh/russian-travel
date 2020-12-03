@@ -1,5 +1,5 @@
 .places__website {
-  max-width: 100%;
+  width: 100%;
   grid-area: website;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,7 +16,7 @@
           align-items: flex-start;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 700px) {
   .places__website {
     display: none;
   }
