@@ -1,4 +1,4 @@
-.places__website {
+.place__website {
   width: 100%;
   grid-area: website;
   display: -webkit-box;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 700px) {
-  .places__website {
+  .place__website {
     display: none;
   }
 }
