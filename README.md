@@ -7,6 +7,8 @@
 ### Проект на GitHub Pages
 
  [Ссылка на проект на GitHub Pages](https://kotezh.github.io/russian-travel/)
+ 
+ _Стэк:_ `HTML/HTML5` `CSS/CSS3`
 
 ### Использованные технологии
 * Создание сетки с помощью grid-layout
